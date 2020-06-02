@@ -4,8 +4,8 @@ module.exports = {
   collectCoverage: true,
   coverageReporters: ["lcov", "text"],
   collectCoverageFrom: ["src/**/*.{ts,tsx}"],
-  testMatch: ["<rootDir>/**/?(*.)+(test).[jt]s?(x)"],
-  testPathIgnorePatterns: ["node_modules/"],
+  testMatch: ["<rootDir>/**/?(*.)+(test).ts?(x)"],
+  testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/dist"],
   coverageThreshold: {
     global: {
       branches: 75,
