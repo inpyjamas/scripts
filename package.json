@@ -13,8 +13,7 @@
   },
   "author": "Fabian Morón Zirfas",
   "license": "MIT",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@types/jest": "25.2.3",
     "@types/lodash.merge": "4.6.6",
