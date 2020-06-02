@@ -2,7 +2,6 @@
 
 An opinionated toolkit for setting up projects. Inspired (and plugged a little) from react-scripts and [kcd-scripts][kcd-scripts]
 
-
 ## Todos
 
 - [ ] How to include scripts? `start` (`tsc -p . --watch`), `build` (`tsc -p .` set `NODE_ENV`), `test` (`jest` should detect ci and generate coverage, set `BABEL_ENV` and `NODE_ENV`)
