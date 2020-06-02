@@ -1,0 +1,11 @@
+.vscode
+node_modules
+.eslintrc.js
+.gitignore
+husky.config.js
+jest.config.js
+LICENSE
+lint-staged.config.js
+prettify.config.js
+renovate.json
+tsconfig.json
