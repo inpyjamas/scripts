@@ -20,5 +20,7 @@ module.exports = {
     "plugin:jest/style",
     "plugin:jest/all",
   ],
-  rules: {},
+  rules: {
+    "jest/prefer-expect-assertions": "off",
+  },
 };

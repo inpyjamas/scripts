@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "common config and scripts",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
     "build": "tsc -p .",
     "prebuild": "npm run clean",
     "watch": "tsc -p . --watch",
