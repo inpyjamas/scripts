@@ -1,4 +1,4 @@
-module.exports = {
+export = {
   // '*.ts?(x)': () => 'tslint "./src*/**/*.ts?(x)"',
   // '*.tsx': () => 'tslint',
   "**/*.+(js|jsx|json|ts|tsx)": [" eslint --cache --fix"],
