@@ -1,6 +1,6 @@
 {
   "name": "@inpyjamas/scripts",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha",
   "description": "common config and scripts",
   "scripts": {
     "test": "jest --watch",
