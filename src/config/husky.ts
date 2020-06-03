@@ -3,8 +3,14 @@ const commands = [
   "cross-env NODE_ENV=test npm run test:ci -- --coverage=false",
   "lint-staged",
 ];
-module.exports = {
+
+export = {
   hooks: {
     "pre-commit": commands.join(" && "),
   },
 };
+// module.exports = {
+//   hooks: {
+//     "pre-commit": commands.join(" && "),
+//   },
+// };
