@@ -1,6 +1,6 @@
 # @inpyjamas/scripts
 
-An opinionated toolkit for setting up projects. Inspired (and plugged a little) from react-scripts and [kcd-scripts][kcd-scripts]
+An opinionated toolkit for setting up projects. Inspired (and plugged a lot) from react-scripts and [kcd-scripts][kcd-scripts]
 
 ## Todos
 
