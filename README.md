@@ -1,5 +1,7 @@
 # @inpyjamas/scripts
 
+_⚠️ This is totally Work In Progress. Please ignore ⚠️_
+
 An opinionated toolkit for setting up projects. Inspired (and plugged a lot) from react-scripts and [kcd-scripts][kcd-scripts]
 
 ## Todos
