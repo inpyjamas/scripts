@@ -10,6 +10,7 @@ An opinionated toolkit for setting up projects. Inspired (and plugged a lot) fro
 - [ ] Document the existing configs
 - [ ] How to update `package.json` with the right scripts? [mrm][mrm]? roll your own?
 - [ ] Add plop?
+- [ ] Add renovate config
 - [ ] ~~Scaffold configs for, prettier, lint-staged, jest, husky, .eslintignore or~~ should this be done by yo generator~~?~~!
 
 ## Installation
