@@ -11,7 +11,8 @@ An opinionated toolkit for setting up projects. Inspired (and plugged a lot) fro
 - [ ] How to update `package.json` with the right scripts? [mrm][mrm]? roll your own?
 - [ ] Add plop?
 - [ ] Add renovate config
-- [ ] ~~Scaffold configs for, prettier, lint-staged, jest, husky, .eslintignore or~~ should this be done by yo generator~~?~~!
+- [ ] Add modules in the root so we don't have to link to `@inpyjamas/scripts/dist/config/eslint/typescript` just `@inpyjamas/scripts/eslint-typescript` or one module that exports all the configs `{eslint-ts:{…}}`
+- [ ] ~~Scaffold configs for, prettier, lint-staged, jest, husky, .eslintignore or~~ This should be done by yo generator!
 
 ## Installation
 
