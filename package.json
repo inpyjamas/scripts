@@ -17,7 +17,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "@types/jest": "25.2.3",
+    "@types/jest": "26.0.0",
     "@types/lodash.merge": "4.6.6",
     "@types/node": "12.12.45",
     "@typescript-eslint/eslint-plugin": "3.2.0",
