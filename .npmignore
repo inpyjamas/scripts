@@ -1,6 +1,5 @@
 .vscode
 node_modules
-
 .gitignore
 husky.config.js
 jest.config.js
