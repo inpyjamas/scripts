@@ -22,6 +22,10 @@ export = {
   ],
   rules: {
     "jest/prefer-expect-assertions": "off",
+    "jest/consistent-test-it": [
+      "error",
+      { fn: "test", withinDescribe: "test" },
+    ],
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {

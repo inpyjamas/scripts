@@ -1,6 +1,6 @@
 const commands = [
   "npm run build",
-  "cross-env NODE_ENV=test npm run test:ci -- --coverage=false",
+  "cross-env NODE_ENV=test npm test -- --coverage=false --no-watch",
   "lint-staged",
 ];
 
