@@ -17,11 +17,10 @@
   },
   "author": "Fabian Morón Zirfas",
   "license": "MIT",
-  "devDependencies": {
-    "@types/cross-spawn": "6.0.2",
-    "@types/is-ci": "2.0.0"
-  },
+  "devDependencies": {},
   "dependencies": {
+    "@types/cross-spawn": "6.0.2",
+    "@types/is-ci": "2.0.0",
     "@types/jest": "26.0.0",
     "@types/lodash.merge": "4.6.6",
     "@types/node": "12.12.47",

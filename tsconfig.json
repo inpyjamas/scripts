@@ -1,8 +1,16 @@
 {
   "extends": "./src/config/tsconfig.node.json",
   "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "incremental": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "typeRoots": ["node_modules/@types"]
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node", "jest"]
   }
 }
