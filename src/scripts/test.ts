@@ -4,6 +4,7 @@ import * as jest from "jest";
 import isCI from "is-ci";
 import process from "process";
 import console from "console";
+import { isInGitRepository } from "../utlities/is-in-git-repo";
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = "test";
 process.env.NODE_ENV = "test";
@@ -15,7 +16,7 @@ export function testRunner(): void {
     !args.includes("--no-watch") &&
     !args.includes("--coverage") &&
     !args.includes("--updateSnapshot")
-      ? ["--watch"]
+      ? [isInGitRepository() ? "--watch" : "--watchAll"]
       : [];
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   let configPath = require.resolve("../../dist/config/jest/typescript.js");
