@@ -7,6 +7,8 @@
   "description": "common config and scripts",
   "scripts": {
     "test": "ts-node src/cli.ts test",
+    "dev": "ts-node src/cli.ts dev",
+    "dev:test": "ts-node src/cli.ts dev test/dev-run-script.ts",
     "build": "tsc -p .",
     "prebuild": "npm run clean",
     "watch": "tsc -p . --watch",
@@ -40,6 +42,7 @@
     "rimraf": "3.0.2",
     "ts-jest": "26.1.4",
     "ts-node": "8.10.2",
+    "ts-node-dev": "1.0.0-pre.56",
     "typescript": "3.9.7"
   }
 }
