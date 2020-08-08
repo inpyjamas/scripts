@@ -54,7 +54,7 @@ export function usage(): void {
   console.log(message);
 }
 export function main(): void {
-  const scripts = ["test"];
+  const scripts = ["test", "dev"];
 
   const [executor, _thisScript, command] = process.argv;
 
