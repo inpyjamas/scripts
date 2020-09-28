@@ -3,7 +3,7 @@
     "inpyjamas-scripts": "./dist/cli.js"
   },
   "name": "@inpyjamas/scripts",
-  "version": "0.1.7-alpha",
+  "version": "0.1.8-alpha",
   "description": "common config and scripts",
   "scripts": {
     "test": "ts-node src/cli.ts test",
