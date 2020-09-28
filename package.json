@@ -18,13 +18,14 @@
   },
   "author": "Fabian Morón Zirfas",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "12.12.6"
+  },
   "dependencies": {
     "@types/cross-spawn": "6.0.2",
     "@types/is-ci": "2.0.0",
     "@types/jest": "26.0.14",
     "@types/lodash.merge": "4.6.6",
-    "@types/node": "12.12.62",
     "@typescript-eslint/eslint-plugin": "4.2.0",
     "@typescript-eslint/parser": "4.2.0",
     "cross-env": "7.0.2",
