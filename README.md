@@ -65,6 +65,12 @@ const localConfig = {
 module.exports = merge(config, localConfig);
 ```
 
+## Release
+
+- `npm version v0.1.x-alpha`
+- git push --tags
+- gh release create
+
 ---
 
 [kcd-scripts]: https://github.com/kentcdodds/kcd-scripts
