@@ -7,6 +7,7 @@ describe("dev script tests", () => {
     const sync = jest.spyOn(spawn, "sync");
     expect(sync).toHaveBeenCalledWith(
       "ts-node-dev",
+      // @ts-ignore
       ["--respawn", "--transpile-only", undefined],
       { stdio: "inherit" },
     );
