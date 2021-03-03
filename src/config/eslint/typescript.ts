@@ -14,11 +14,10 @@ export = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
     "plugin:jest/all",
+    "plugin:prettier/recommended",
   ],
   rules: {
     "jest/prefer-expect-assertions": "off",
