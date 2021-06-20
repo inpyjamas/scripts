@@ -19,7 +19,7 @@
   "author": "Fabian Morón Zirfas",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "14.14.31"
+    "@types/node": "14.17.3"
   },
   "dependencies": {
     "@types/cross-spawn": "6.0.2",
