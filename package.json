@@ -19,7 +19,8 @@
   "author": "Fabian Morón Zirfas",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "14.14.31"
+    "@types/node": "14.14.31",
+    "cz-conventional-changelog": "3.3.0"
   },
   "dependencies": {
     "@types/cross-spawn": "6.0.2",
@@ -58,5 +59,10 @@
   "bugs": {
     "url": "https://github.com/inpyjamas/scripts/issues"
   },
-  "homepage": "https://github.com/inpyjamas/scripts#readme"
+  "homepage": "https://github.com/inpyjamas/scripts#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
